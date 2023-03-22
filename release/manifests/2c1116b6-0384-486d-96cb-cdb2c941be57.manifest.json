@@ -1,0 +1,83 @@
+{
+  "id": "2c1116b6-0384-486d-96cb-cdb2c941be57",
+  "alias": "UItilesNavWebPart",
+  "componentType": "WebPart",
+  "version": "0.0.1",
+  "manifestVersion": 2,
+  "requiresCustomScript": false,
+  "supportedHosts": [
+    "SharePointWebPart",
+    "TeamsPersonalApp",
+    "TeamsTab",
+    "SharePointFullPage"
+  ],
+  "supportsThemeVariants": true,
+  "preconfiguredEntries": [
+    {
+      "groupId": "5c03119e-3074-46fd-976b-c60198311f70",
+      "group": {
+        "default": "Advanced"
+      },
+      "title": {
+        "default": "UItilesNav"
+      },
+      "description": {
+        "default": "UItilesNav description"
+      },
+      "officeFabricIconFontName": "Tiles",
+      "properties": {
+        "description": "UItilesNav"
+      }
+    }
+  ],
+  "loaderConfig": {
+    "internalModuleBaseUrls": [
+      "<!-- PATH TO CDN -->"
+    ],
+    "entryModuleId": "u-itiles-nav-web-part",
+    "scriptResources": {
+      "u-itiles-nav-web-part": {
+        "type": "path",
+        "path": "u-itiles-nav-web-part.js"
+      },
+      "@microsoft/sp-property-pane": {
+        "type": "component",
+        "id": "f9e737b7-f0df-4597-ba8c-3060f82380db",
+        "version": "1.15.2"
+      },
+      "@microsoft/sp-core-library": {
+        "type": "component",
+        "id": "7263c7d0-1d6a-45ec-8d85-d4d1d234171b",
+        "version": "1.15.2"
+      },
+      "@microsoft/sp-page-context": {
+        "type": "component",
+        "id": "1c4541f7-5c31-41aa-9fa8-fbc9dc14c0a8",
+        "version": "1.15.2"
+      },
+      "@microsoft/sp-webpart-base": {
+        "type": "component",
+        "id": "974a7777-0990-4136-8fa6-95d80114c2e0",
+        "version": "1.15.2"
+      },
+      "react": {
+        "type": "component",
+        "id": "0d910c1c-13b9-4e1c-9aa4-b008c5e42d7d",
+        "version": "16.13.1"
+      },
+      "UItilesNavWebPartStrings": {
+        "type": "localizedPath",
+        "paths": {
+          "en-US": "UItilesNavWebPartStrings_en-us.js",
+          "ilistsuitile": "UItilesNavWebPartStrings_IListsUItile.js"
+        },
+        "defaultPath": "UItilesNavWebPartStrings_en-us.js"
+      },
+      "@microsoft/sp-http": {
+        "type": "component",
+        "id": "c07208f0-ea3b-4c1a-9965-ac1b825211a6",
+        "version": "1.15.2"
+      }
+    }
+  }
+}
