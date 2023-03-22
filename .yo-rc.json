@@ -1,0 +1,16 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "version": "1.15.2",
+    "libraryName": "u-itiles-nav",
+    "libraryId": "3edd3af6-002b-4efa-bc5e-29556d219213",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "UItilesNav",
+    "solutionShortDescription": "UItilesNav description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

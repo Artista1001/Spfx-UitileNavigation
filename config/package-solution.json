@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "u-itiles-nav-client-side-solution",
+    "id": "3edd3af6-002b-4efa-bc5e-29556d219213",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.15.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "UItilesNav description"
+      },
+      "longDescription": {
+        "default": "UItilesNav description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "u-itiles-nav Feature",
+        "description": "The feature that activates elements of the u-itiles-nav solution.",
+        "id": "c87c60cb-c36b-47dc-9d01-c3b5fe704213",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/u-itiles-nav.sppkg"
+  }
+}
